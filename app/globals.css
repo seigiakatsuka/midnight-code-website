@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+
+body {
+    background-color: #0f172a;
+}
+
+@theme {
+    --animate-loop-scroll: " loop-scroll 40s linear infinite";
+
+    @keyframes loop-scroll {
+        0% {
+            tansfrom: translateX(0);
+        }
+        100% {
+            transform: translateX(calc(-50% - .5rem));
+        }
+    }
+}

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d6342fb9-9765-49f8-8872-f45276cfb3bb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/api/contact/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/blog/[slug]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/blog/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/blog/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/contact/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/satoshi/Satoshi-Variable.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/satoshi/Satoshi-Variable.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/satoshi/Satoshi-Variable.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/satoshi/Satoshi-VariableItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/satoshi/Satoshi-VariableItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/fonts/satoshi/Satoshi-VariableItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/projects/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ui/carousel/carousel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ui/contact-form.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ui/navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ui/projects/project-card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ui/projects/project-card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ui/scroller.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page.module.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="31xzjDD3IZrO83Rjz4XSxE9GkXh" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/minuitspence/Documents/Documents - Minuit’s MacBook Air - 1/Dev/Design/midnight-code-website/app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/Users/minuitspence/Documents/Documents - Minuit’s MacBook Air - 1/Dev/Design/midnight-code-website/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/app/fonts/satoshi" />
+      <recent name="$PROJECT_DIR$/app/fonts" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/css" />
+      <recent name="$PROJECT_DIR$/app/contact" />
+      <recent name="$PROJECT_DIR$/app/(root)" />
+      <recent name="$PROJECT_DIR$/app/api/contact" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Next.js: server-side">
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="Next.js: server-side" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9c94529fcfe0-JavaScript-WS-252.26199.162" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6342fb9-9765-49f8-8872-f45276cfb3bb" name="Changes" comment="" />
+      <created>1756480644839</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756480644839</updated>
+      <workItem from="1756480645869" duration="28059000" />
+      <workItem from="1757000909368" duration="1217000" />
+      <workItem from="1758129698830" duration="9870000" />
+      <workItem from="1758160442775" duration="54015000" />
+      <workItem from="1758558462819" duration="16142000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
