@@ -1,4 +1,4 @@
-import { getPost } from "/lib/posts";
+import { getPost } from "@/app/lib/posts";
 
 export default async function BlogPostPage({
   params,
