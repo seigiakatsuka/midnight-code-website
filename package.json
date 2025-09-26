@@ -9,6 +9,8 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@auth0/auth0-react": "^2.5.0",
+    "@upstash/redis": "^1.35.4",
     "motion": "^12.23.18",
     "next": "15.5.3",
     "nodemailer": "^7.0.5",

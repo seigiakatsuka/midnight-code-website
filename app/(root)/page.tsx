@@ -1,14 +1,14 @@
 import Image from "next/image";
-import Carousel from "@/app/ui//carousel/carousel";
-import Scroller from "@/app/ui/scroller";
 import Card from "../ui/card/card";
 
 export default function Home() {
   return (
     <>
       <div>
-        <div>
-          <h1 className={"text-cyan-800 font-black text-5xl"}>Minuit Spence</h1>
+        <div className="w-[1653px] h-[906px] bg-gradient-to-b from-black/0 to-black/80 border border-black">
+          <div className="justify-start text-white text-8xl font-normal font-['Satoshi_Variable'] leading-[132px]">
+            <span className="italic"> M./SPENCE </span>
+          </div>
           <p className={"text-slate-200 text-sm "}>
             Discover my projects and get in touch!
           </p>
@@ -33,10 +33,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div>
-          {/*Tools used */}
-          <Scroller />
-        </div>
+        <div>{/*Tools used */}</div>
 
         <div>
           {/* Add project cards here*/}
