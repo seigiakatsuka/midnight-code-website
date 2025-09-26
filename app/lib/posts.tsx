@@ -2,6 +2,6 @@ import { Redis } from "@upstash/redis";
 
 const redis = Redis.fromEnv();
 
-export default function Blog() {
-  return <div>Blog Page</div>;
+export async function getPost() {
+  const post = await redis.get("post");
 }
