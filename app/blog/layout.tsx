@@ -1,6 +1,9 @@
-export default function BlogLayout(
-    {children,}: {
-    children: React.ReactNode
+import sideNavbar from "../ui/side-navbar";
+
+export default function BlogLayout({
+  children,
+}: {
+  children: React.ReactNode;
 }) {
-    return <section>{children}</section>
+  return <section>{children}</section>;
 }
