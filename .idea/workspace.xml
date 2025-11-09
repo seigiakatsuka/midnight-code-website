@@ -5,26 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6342fb9-9765-49f8-8872-f45276cfb3bb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/api/contact/route.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/blog/[slug]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/blog/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/blog/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/contact/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/satoshi/Satoshi-Variable.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/satoshi/Satoshi-Variable.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/satoshi/Satoshi-Variable.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/satoshi/Satoshi-VariableItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/satoshi/Satoshi-VariableItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/fonts/satoshi/Satoshi-VariableItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/projects/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/ui/carousel/carousel.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/ui/contact-form.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/ui/navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/ui/projects/project-card.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/ui/projects/project-card.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/ui/scroller.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lib/projects/projectInfo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ui/projects/projectCard.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/ui/projects/projectCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(root)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(root)/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blog/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/blog/[slug]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/posts.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/redis.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/projects/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/projects/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ui/card/card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/ui/card/card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ui/contact-form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/ui/contact-form.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/ui/projects/creative-counseling.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;seigiakatsuka&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/seigiakatsuka/midnight-code-website.git&quot;,
+    &quot;accountId&quot;: &quot;828fca1a-690e-4c98-9586-fb76e6b0936e&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -49,6 +53,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultAutoModeForALLUsers.v1": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "master",
     "js.debugger.nextJs.config.created.client": "true",
     "js.debugger.nextJs.config.created.server": "true",
@@ -72,6 +78,7 @@
       <recent name="$PROJECT_DIR$/public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/lib/projects" />
       <recent name="$PROJECT_DIR$/app/css" />
       <recent name="$PROJECT_DIR$/app/contact" />
       <recent name="$PROJECT_DIR$/app/(root)" />
@@ -96,7 +103,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9c94529fcfe0-JavaScript-WS-252.26199.162" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-WS-252.27397.92" />
       </set>
     </attachedChunks>
   </component>
@@ -112,6 +119,10 @@
       <workItem from="1758129698830" duration="9870000" />
       <workItem from="1758160442775" duration="54015000" />
       <workItem from="1758558462819" duration="16142000" />
+      <workItem from="1759251248040" duration="3381000" />
+      <workItem from="1759275159851" duration="4663000" />
+      <workItem from="1761413191645" duration="15308000" />
+      <workItem from="1762191082196" duration="2270000" />
     </task>
     <servers />
   </component>

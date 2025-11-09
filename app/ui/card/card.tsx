@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Card() {
   return (
     <>
-      <div className="px-6 py-8 bg-stone-200/30 rounded-[32px] outline outline-1 outline-offset-[-1px] outline-white/20 inline-flex flex-col justify-start items-start gap-2">
+      <div className="px-6 py-8 bg-stone-200/30 rounded-[32px] outline outline-offset-[-1px] outline-white/20 inline-flex flex-col justify-start items-start gap-2">
         <Image
           className="rounded"
           src=""
