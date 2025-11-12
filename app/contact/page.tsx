@@ -1,16 +1,16 @@
-import ContactForm from "@/app/ui/contact-form";
+import ContactForm from "@/app/ui/ContactForm";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: 'Contact'
+  title: "Contact",
 };
 
 export default function ContactPage() {
-return (
-        <>
-            <div>
-                <ContactForm />
-            </div>
-        </>
-    );
+  return (
+    <>
+      <div>
+        <ContactForm />
+      </div>
+    </>
+  );
 }
