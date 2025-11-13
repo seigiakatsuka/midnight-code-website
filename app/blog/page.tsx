@@ -1,7 +1,10 @@
-import { Redis } from "@upstash/redis";
+import React from "react";
+import type { Metadata } from "next";
 
-const redis = Redis.fromEnv();
+export const metadata: Metadata = {
+  title: "Blog",
+};
 
-export default function Blog() {
+export default function BlogPage() {
   return <div>Blog Page</div>;
 }

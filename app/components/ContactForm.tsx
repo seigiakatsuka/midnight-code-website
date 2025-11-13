@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import { Button } from "./ui/button";
 
 type FormData = {
   name: string;
@@ -158,7 +159,7 @@ export default function ContactForm() {
               <option value="under-1000">Under $1000</option>
               <option value="1000-2000">$1000-$2000</option>
               <option value="2000-3000">$2000-$3000</option>
-              <option value="I'm not sure">I'm not sure</option>
+              <option value="I'm not sure">I&apos;m not sure</option>
             </select>
           </div>
 
@@ -175,14 +176,14 @@ export default function ContactForm() {
               <option value="< month">Less than a Month</option>
               <option value="1 Month">1 Month</option>
               <option value="2 Months">2 Months</option>
-              <option value="I'm not sure">I'm not sure</option>
+              <option value="I'm not sure">I&apos;m not sure</option>
               <option value="no deadline">No Deadline</option>
             </select>
           </div>
 
-          <button type="submit" disabled={status.type === "loading"}>
+          <Button type="submit" disabled={status.type === "loading"}>
             {status.type === "loading" ? "Sending..." : "Send Message"}
-          </button>
+          </Button>
         </form>
         {status.message && (
           <div

@@ -1,5 +1,3 @@
-import sideNavbar from "../ui/side-navbar";
-
 export default function BlogLayout({
   children,
 }: {

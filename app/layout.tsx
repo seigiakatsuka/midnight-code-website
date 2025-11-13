@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "@/app/ui/Navbar";
+import Navbar from "@/app/components/Navbar";
 import localFont from "next/font/local";
-import { ThemeProvider } from "@/components/theme-provider";
+import { ThemeProvider } from "@/app/components/theme-provider";
 
 const satoshi = localFont({
   src: "./fonts/satoshi/Satoshi-Variable.woff2",

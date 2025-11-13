@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { projects } from "@/app/lib/projects/projectInfo";
-import "./projectCard.module.css";
+import styles from "./projectCard.module.css";
 import { Button } from "@/app/components/ui/button";
 
 export interface Project {
@@ -21,10 +21,10 @@ export const ProjectCard: React.FC = () => {
   if (!projectList || projectList.length === 0) return null;
 
   return (
-    <div className="project-card">
+    <div className={styles.projectCard}>
       {projectList.map((project) => (
-        <article className="project" key={project.id}>
-          <div className="project-image">
+        <article className={styles.project} key={project.id}>
+          <div className={styles.projectImage}>
             <Image
               src={project.image}
               alt={project.name}
@@ -34,7 +34,7 @@ export const ProjectCard: React.FC = () => {
             />
           </div>
 
-          <div className="project-content">
+          <div className={styles.projectContent}>
             <h2>{project.name}</h2>
             <p>{project.description}</p>
 
