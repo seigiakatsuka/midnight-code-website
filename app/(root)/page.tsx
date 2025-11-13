@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ProjectCard } from "@/app/components/ui/projects/projectCard";
+import { ProjectCard } from "@/app/components/ui/projectCard/projectCard";
 
 export default function Home() {
   return (

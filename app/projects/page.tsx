@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { ProjectCard } from "../components/ui/projects/projectCard";
+import { ProjectCard } from "@/app/components/ui/projectCard/projectCard";
 
 export const metadata: Metadata = {
   title: "Projects",
